@@ -6,14 +6,20 @@ annotation, blur and on-device text recognition — with Homebrew.
 ## Install
 
 ```sh
-brew tap eliseinicolae/tap
-brew trust eliseinicolae/tap
-brew install --cask snapix
+brew install --cask eliseinicolae/tap/snapix
 ```
 
-Homebrew 6.0 and later refuse to load casks from third-party taps until you
-trust them, which is what the middle command is for. Once the tap is added,
-`brew install snapix` works on its own — the `--cask` flag is optional.
+That one command adds the tap and installs the app. Naming the cask in full is
+what makes it a single step: Homebrew 6.0 and later refuse to load casks from
+third-party taps until they are trusted, but a fully-qualified name counts as
+saying so, so no separate `brew trust` is needed.
+
+Afterwards the tap is yours, and the short forms work for anything else:
+
+```sh
+brew install snapix          # --cask is optional; there is no formula by this name
+brew uninstall snapix
+```
 
 ## Requirements
 
