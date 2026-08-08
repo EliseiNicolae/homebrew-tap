@@ -28,4 +28,12 @@ cask "snapix" do
     "~/Library/Logs/Snapix-recording.log",
     "~/Library/Preferences/com.snapix.plist",
   ]
+
+  caveats do
+    puts <<~EOS
+      Snapix runs in the menu bar. Open it with:
+
+        open -a Snapix
+    EOS
+  end
 end
