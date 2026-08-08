@@ -1,6 +1,6 @@
 cask "snapix" do
-  version "1.0.31"
-  sha256 "7d3fc8a2351899914b3cf35b1cae731e148f3cca5aac95683d4b650e960e6acb"
+  version "1.0.32"
+  sha256 "d29df39ea6e7d2e8874792de3903fa51c80c1295ff55a64906e8428c13b4705f"
 
   url "https://cdn.snapix.app/releases/v#{version}/Snapix.dmg"
   name "Snapix"
