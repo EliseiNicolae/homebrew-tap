@@ -1,8 +1,8 @@
 cask "snapix" do
-  version "1.1.9"
-  sha256 "b22ccbab26baf6859fe0f26cde4ce0920da143c14470ffd87768640c942d77d5"
+  version "1.1.10"
+  sha256 "55470fbc4e595c8068fe139c2813efab00f49c82900cba87ab7c6aad93e5d295"
 
-  url "https://cdn.snapix.app/releases/v#{version}/Snapix.dmg"
+  url "https://cdn.snapix.app/releases/v#{version}/Snapix.zip"
   name "Snapix"
   desc "Screen capture tool with annotation, blur and on-device text recognition"
   homepage "https://snapix.app/"
