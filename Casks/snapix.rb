@@ -1,6 +1,6 @@
 cask "snapix" do
-  version "1.1.11"
-  sha256 "f1c7c36dba7eddee9310d6891c1b41a4156e1d0be0e708ac2580cf7344475512"
+  version "2.1.29"
+  sha256 "16a6468e14b1caa765f56ce481f4d0669278e05323528831ad6820c88b38f33e"
 
   url "https://cdn.snapix.app/releases/v#{version}/Snapix.zip"
   name "Snapix"
@@ -27,15 +27,15 @@ cask "snapix" do
     EOS
   end
 
-  uninstall quit: "com.snapix"
+  uninstall quit: "app.snapix.mac"
 
   zap trash: [
-    "~/Library/Application Scripts/com.snapix",
+    "~/Library/Application Scripts/2KNY2RZVGC.app.snapix.mac",
     "~/Library/Application Support/Snapix",
-    "~/Library/Caches/com.snapix",
-    "~/Library/Containers/com.snapix",
-    "~/Library/HTTPStorages/com.snapix",
-    "~/Library/Logs/Snapix-recording.log",
-    "~/Library/Preferences/com.snapix.plist",
+    "~/Library/Caches/app.snapix.mac",
+    "~/Library/Group Containers/2KNY2RZVGC.app.snapix.mac",
+    "~/Library/HTTPStorages/app.snapix.mac",
+    "~/Library/Preferences/app.snapix.mac.plist",
+    "~/Library/Saved Application State/app.snapix.mac.savedState",
   ]
 end
